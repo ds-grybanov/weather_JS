@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+html, body {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #222;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  background: #f1f1f1;
+  padding: 30px;
+}
+
+
+hr {
+  margin: 20px 0;
+}
+
+input, button {
+  background: none;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: .9rem;
+  outline: none;
+}
+
+button:hover {
+  background: rgb(0, 175, 73);
+}
+
+button:active {
+  background: #f1f1f1;
+  color: rgb(0, 175, 73);
+  border: none;
+  outline: 1px solid black;
+}
+
+#view-weather {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#view-weather div {
+  width: 200px; 
+  height: 250px; 
+  border: 2px solid rgb(0, 175, 73);
+  margin: 10px;
+}
+
+p {
+  margin: 10px auto;
+}
